@@ -3,9 +3,23 @@
 }
 
 @media screen and (max-width: 768px) {
-    
+    .menubar {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 576px) {
-    
+
+    nav {
+        padding: 15px 30px;
+        justify-content: space-between;
+    }
+
+    nav .btn-primary {
+        display: none;
+    }
 }
