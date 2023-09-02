@@ -11,6 +11,10 @@
         width: 85%;
         text-align: center;
     }
+
+    .features-card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -32,6 +36,14 @@
 
     .about-info {
         width: 100%;
+    }
+
+    .features-description {
+        width: 80%;
+    }
+
+    .features-card-container {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -63,14 +75,23 @@
         flex-direction: column;
     }
 
+    .features-description {
+        width: 95%;
+    }
+
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 375px) {
     .about-title {
         font-size: 2.5rem;
     }
 
     .about-info {
         padding: 70px 20px;
+    }
+    
+    .features-description {
+        font-size: 1.3rem;
+        line-height: 26px;
     }
 }

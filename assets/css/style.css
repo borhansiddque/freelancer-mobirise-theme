@@ -48,6 +48,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: sticky;
+    top: 0;
 }
 
 .logo {
@@ -133,7 +135,8 @@ header {
 }
 
 .about-info {
-    background-color: #E2E9FF;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.6) 100%);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
     padding: 100px 50px;
     border-radius: 26px;
     width: 55%;
@@ -156,5 +159,69 @@ header {
     line-height: 24px;
 }
 
+/* Features Section Style */
 
+.features {
+    padding: 80px 0px;
+    background-image: url("../img/background1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.features-title {
+    font-size: 1.3rem;
+    color: #fff;
+    text-align: center;
+}
+
+.features-description {
+    font-size: 1.8rem;
+    color: #fff;
+    text-align: center;
+    line-height: 43px;
+    width: 63%;
+    margin: 20px auto;
+}
+
+.features-card-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.features-card {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.6) 100%);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 26px;
+    padding: 48px;
+    text-align: center;
+}
+
+.features-card-icon {
+    width: 80px;
+    height: 80px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.6) 100%);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    color: #a148ff;
+    font-size: 3rem;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.features-card-title {
+    font-size: 1.3rem;
+    color: #263d5a;
+    margin: 30px 0px 15px;
+}
+
+.features-card-desc {
+    color: #263d5a;
+    line-height: 24px;
+    margin-bottom: 35px;
+}
