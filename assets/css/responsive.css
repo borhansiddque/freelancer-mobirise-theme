@@ -1,5 +1,16 @@
 @media screen and (max-width: 992px) {
-    
+    .about-container {
+        flex-direction: column;
+    }
+
+    .about-img {
+        width: 70%;
+    }
+
+    .about-info {
+        width: 85%;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -13,6 +24,14 @@
 
     .header-info {
         width: 70%;
+    }
+
+    .about-img {
+        width: 100%;
+    }
+
+    .about-info {
+        width: 100%;
     }
 }
 
@@ -31,7 +50,27 @@
         width: 85%;
     }
 
-    .header-title {
+    .header-title,
+    .about-title {
         font-size: 3rem;
+    }
+
+    .about-info {
+        padding: 100px 20px;
+    }
+
+    .about-desc-container {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .about-title {
+        font-size: 2.5rem;
+    }
+
+    .about-info {
+        padding: 70px 20px;
     }
 }
