@@ -12,7 +12,8 @@
         text-align: center;
     }
 
-    .features-card-container {
+    .features-card-container,
+    .pricing-card-container {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -46,8 +47,10 @@
         width: 80%;
     }
 
-    .features-card-container {
+    .features-card-container,
+    .pricing-card-container {
         grid-template-columns: 1fr;
+        text-align: center;
     }
 }
 
@@ -97,6 +100,10 @@
         font-size: 2rem;
     }
 
+    .pricing-card {
+        padding: 48px 20px;
+    }
+
 }
 
 @media screen and (max-width: 375px) {
@@ -112,4 +119,9 @@
         font-size: 1.3rem;
         line-height: 26px;
     }
+    
+    .pricing-description {
+        font-size: 1.3rem;
+    }
+    
 }

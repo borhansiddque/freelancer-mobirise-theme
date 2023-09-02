@@ -299,3 +299,72 @@ header {
 .skill-item-3 .skill-bar .bar .inner-bar {
     width: 50%;
 }
+
+/* Pricing Section Style */
+
+.pricing {
+    padding: 100px 0px;
+    background-image: url("../img/background3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pricing-title {
+    text-align: center;
+    font-size: 1.3rem;
+    color: #263d5a;
+}
+
+.pricing-description {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #263d5a;
+    margin-top: 20px;
+}
+
+.pricing-card-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.pricing-card {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.6) 100%);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 26px;
+    padding: 48px;
+    color: #263d5a;
+}
+
+.pricing-card-price {
+    font-size: 4.3rem;
+}
+
+.pricing-card-title {
+    font-size: 1.9rem;
+    margin: 15px 0px;
+}
+
+.pricing-card-desc {
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
