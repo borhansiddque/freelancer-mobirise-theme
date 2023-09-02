@@ -52,6 +52,10 @@
         grid-template-columns: 1fr;
         text-align: center;
     }
+
+    .clients-card-container {
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -104,6 +108,10 @@
         padding: 48px 20px;
     }
 
+    .pricing-description {
+        padding: 0px 10px;
+    }
+
 }
 
 @media screen and (max-width: 375px) {
@@ -123,5 +131,5 @@
     .pricing-description {
         font-size: 1.3rem;
     }
-    
+
 }

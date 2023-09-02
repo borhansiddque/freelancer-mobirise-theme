@@ -352,11 +352,38 @@ header {
     margin-bottom: 30px;
 }
 
+/* Clients Section Style */
 
+.clients {
+    padding: 100px 0px;
+    background-image: url("../img/background8.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.clients-card-container {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
 
+.clients-card {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.6) 100%);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    padding: 48px;
+    border-radius: 26px;
+    text-align: center;
+}
 
-
+.clients-card img {
+    width: 150px;
+}
 
 
 
