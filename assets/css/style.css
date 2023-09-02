@@ -225,3 +225,77 @@ header {
     line-height: 24px;
     margin-bottom: 35px;
 }
+
+/* My Competence Section Style */
+
+.competence {
+    padding: 100px 50px;
+    background-image: url("../img/background5.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.competence-img img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.competence-info {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.6) 100%);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 26px;
+    padding: 5rem 3rem;
+}
+
+.competence-title {
+    color: #263d5a;
+    font-size: 2.8rem;
+}
+
+.competence-desc {
+    color: #6d819b;
+    line-height: 24px;
+    margin: 20px 0px 40px;
+}
+
+.skills-item .skill {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #6d819b;
+    font-weight: 500;
+}
+
+.skill-bar {
+    margin-top: 5px;
+}
+
+.bar {
+    background-color: #D5D8DF;
+    height: 10px;
+    border-radius: 15px;
+}
+
+.inner-bar {
+    background-color: #ff6f45;
+    width: 85%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.skill-item-2,
+.skill-item-3 {
+    margin-top: 20px;
+}
+
+.skill-item-2 .skill-bar .bar .inner-bar {
+    width: 70%;
+}
+
+.skill-item-3 .skill-bar .bar .inner-bar {
+    width: 50%;
+}
