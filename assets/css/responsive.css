@@ -43,6 +43,11 @@
     .team-info {
         width: 100%;
     }
+
+    .contact-container {
+        width: 80%;
+    
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -108,6 +113,10 @@
 
     .input-container {
         width: 85%;
+    }
+
+    form {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -192,6 +201,11 @@
         line-height: 35px;
     }
 
+    .contact-container {
+        width: 95%;
+    
+    }
+
 }
 
 @media screen and (max-width: 375px) {
@@ -236,6 +250,11 @@
     .team-desc {
         font-size: 1.1rem;
         line-height: 26px;
+    }
+
+    .contact-container {
+        padding: 80px 20px;
+
     }
     
 }
