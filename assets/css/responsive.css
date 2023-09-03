@@ -48,6 +48,11 @@
         width: 80%;
     
     }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -203,7 +208,11 @@
 
     .contact-container {
         width: 95%;
-    
+    }
+
+    .footer-links-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
     }
 
 }
