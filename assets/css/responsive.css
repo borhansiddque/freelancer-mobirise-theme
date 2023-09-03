@@ -138,6 +138,14 @@
         font-size: 2.2rem;
     }
 
+    .say-hello-container {
+        width: 100%;
+    }
+
+    .say-hello-title {
+        font-size: 3.5rem;
+    }
+
 }
 
 @media screen and (max-width: 375px) {
@@ -160,6 +168,14 @@
 
     .feedback-title {
         font-size: 1.8rem;
+    }
+
+    .say-hello-container {
+        padding: 64px 20px;
+    }
+
+    .say-hello-title {
+        font-size: 3rem;
     }
     
 }

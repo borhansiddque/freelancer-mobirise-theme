@@ -434,3 +434,65 @@ header {
 .feedback-way h3 {
     font-size: 1rem;
 }
+
+/* Say Hello Section Style */
+
+.say-hello {
+    padding: 100px 20px;
+    background-image: url(../img/background5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.say-hello-container {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.6) 100%);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    padding: 64px 48px;
+    border-radius: 30px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.say-hello-info {
+    text-align: center;
+    color: #263d5a;
+}
+
+.say-hello-title {
+    font-size: 4.3rem;
+    margin: 20px 0px 30px;
+}
+
+.say-hello-email {
+    color: #263d5a;
+    font-size: 1.3rem;
+    transition: all .3s;
+}
+
+.say-hello-email:hover {
+    color: #080c12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
