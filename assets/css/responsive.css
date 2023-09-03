@@ -30,6 +30,19 @@
         margin-left: 0px;
         margin-top: 10px;
     }
+
+    .team-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-img {
+        width: 100%;
+    }
+
+    .team-info {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -174,6 +187,11 @@
         width: 100%;
     }
 
+    .team-desc {
+        font-size: 1.3rem;
+        line-height: 35px;
+    }
+
 }
 
 @media screen and (max-width: 375px) {
@@ -208,6 +226,16 @@
     
     .input-container {
         padding: 32px 20px;
+    }
+
+    .team-info {
+        padding: 64px 20px;
+        text-align: center;
+    }
+
+    .team-desc {
+        font-size: 1.1rem;
+        line-height: 26px;
     }
     
 }

@@ -509,6 +509,10 @@ header {
     width: 70%;
 }
 
+.input-container input:focus {
+    outline: none;
+}
+
 .input-container input::placeholder {
     color: #979797;
     font-size: 1rem;
@@ -519,6 +523,56 @@ header {
     padding: 12px 30px;
     margin-left: 10px;
 }
+
+/* Team Section Style */
+
+.team {
+    padding: 100px 0px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("../img/background8.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.team-container {
+    display: flex;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.team-img {
+    width: 35%;
+}
+
+.team-img img {
+    border-radius: 30px;
+    width: 100%;
+}
+
+.team-info {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.6) 100%);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    padding: 64px 48px;
+    border-radius: 30px;
+    color: #263d5a;
+    width: 65%;
+}
+
+.team-desc {
+    font-size: 1.8rem;
+    line-height: 43px;
+}
+
+.team-name {
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+
+
+
+
+
 
 
 
